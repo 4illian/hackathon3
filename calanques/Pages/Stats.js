@@ -6,7 +6,7 @@ import Piechart from "../Components/Piechart"
 //import { BarChart, Grid, XAxis } from 'react-native-svg-charts'
 
 
-export default function Home() {
+export default function Stats() {
 
 
 
@@ -19,7 +19,7 @@ export default function Home() {
       }}
 
     >
-      <Map />
+
 
       <Piechart />
 

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { View, Text } from "react-native";
-import Home from "./Pages/Home";
+import Stats from "./Pages/Stats";
+
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
         // alignItems: "center",
       }}
     >
-      <Home />
+      <Stats />
     </View>
   );
 }
