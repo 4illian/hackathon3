@@ -3,31 +3,34 @@ import { View, Text, Dimensions, Button } from "react-native";
 import Map from "../Components/Map"
 import Graph from "../Components/Graph"
 import Piechart from "../Components/Piechart"
+import Bottombar from '../Components/Bottombar'
 //import { BarChart, Grid, XAxis } from 'react-native-svg-charts'
 
 
-export default function Home({ Root }) {
+export default function Home({ navigation }){
+
 
 
 
   return (
     <View
       style={{
-        // flex: 1,
+     //   flex: 1,
         // justifyContent: "center",
         // alignItems: "center",
       }}
 
     >
       <Map />
-      <Piechart />
+      {/* <Map /> */}
 
-      <Button
+      {/* <Button
         title="Go to Stats"
-        onPress={() => Root.Navigator('stats')}
-      />
+        
+       onPress={() =>    
+        navigation.navigate('Stats') }
+      /> */}
     
-
 
 
 

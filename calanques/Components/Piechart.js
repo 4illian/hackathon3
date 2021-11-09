@@ -9,7 +9,7 @@ export default function Piechart() {
         {
             name: "Marseille",
             polution: 215,
-            color: "#47bccb",
+            color: "#cb9847",
             legendFontColor: "#7F7F7F",
             legendFontSize: 15
         },
@@ -52,13 +52,14 @@ export default function Piechart() {
             }}>Stats Globales</Text>
             <PieChart
                 data={data}
-                width={Dimensions.get("window").width}
+                width={Dimensions.get("window").width/1.1}
                 height={200}
                 chartConfig={chartConfig}
                 accessor={"polution"}
                 backgroundColor={"transparent"}
+            style={{borderRadius: 25}}
                 //paddingLeft={"15"}
-                center={[10, 0]}
+                center={[0, 0]}
                 absolute
             />
         </View>

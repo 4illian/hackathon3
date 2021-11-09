@@ -7,11 +7,11 @@ import {
 export default function Graph() {
   return (
     <View>
-        <Text style={{
+        {/* <Text style={{
           marginLeft: "auto",
           marginRight: "auto",
           fontSize: 22
-        }}>Stats Globales</Text>
+        }}>Stats Globales</Text> */}
         <LineChart
           data={{
             labels: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin"],
